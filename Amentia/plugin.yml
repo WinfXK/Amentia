@@ -1,0 +1,21 @@
+name: Amentia
+main: xiaokai.is666.you.is.sb.YouAreFool
+api:
+- 1.0.0
+version: 1.0.0
+load: POSTWORLD
+website: http://EpicFX.cn
+author: Winfxk
+loadbefore:
+- EconomyAPI
+commands:
+   am:
+      description: §9一个装逼无限的指令（小声逼逼：其实是设置服务器权限的插件指令啦~）
+      permission: Amentia.Command.main
+      usage: §b/§6am §chelp
+      aliases:
+      - amentia
+permissions:
+   Amentia.Command.main:
+      description: 设置服务器权限的插件指令
+      default: true
